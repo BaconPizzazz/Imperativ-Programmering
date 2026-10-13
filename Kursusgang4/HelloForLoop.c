@@ -1,9 +1,18 @@
 #include <stdio.h>
 
-int main(){
-    int i;
-    for (i = 0; i < 100; i+=4)
+// int main(){
+// for (int a = 10; a <=20; a++){
+//      printf("value of a: %d\n, a");
+//    }
+//  return 0;
+//}
+
+int main2()
+{
+    int a = 10;
+    while (a <= 20)
     {
-        printf("Tal: %d\n", i);
+        printf("value of a: %d\n", a);
+        a++;
     }
 }

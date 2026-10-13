@@ -4,13 +4,11 @@ int main()
 {
     int iterator;
 
-    for (iterator=0; iterator<=5; iterator++)
+    for (iterator = 0; iterator <= 5; iterator++)
     {
 
         printf("tallet er lig med %i\n", iterator);
-        printf("and next number is:");
+        printf("and next number is:%i\n", iterator++);
     }
-    return 0; 
-
-
+    return 0;
 }
